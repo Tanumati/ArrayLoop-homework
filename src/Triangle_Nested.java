@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Triangle_Nested {
+    public class Triangle_Nested {
     // Display right angle triangle of @ using nested for loops
     public static void main (String[]args){
         Scanner scanner = new Scanner(System.in);
@@ -8,12 +8,12 @@ public class Triangle_Nested {
         char  n = scanner.next().charAt(0);
         int i;
         int j ;
-        for (i =0;i<=5;i++){
+        for (i =0;i<=10;i++){
 
             for (j=0;j<=i;j++)
             {
 
-                System.out.print(n);
+                System.out.print(""+n);
             }
             System.out.println();
         }
